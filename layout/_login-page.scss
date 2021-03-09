@@ -55,12 +55,16 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
+        cursor: pointer;
 
         a{
             color: white;
             text-decoration: none;
             font-size: 13px;
-        }
+        } 
+    }
+    .login-button:hover{
+        background: $login-hover;
     }
 
     .login-facebook{

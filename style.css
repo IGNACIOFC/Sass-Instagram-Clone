@@ -110,12 +110,17 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
 }
 
 .login-form .login-button a {
   color: white;
   text-decoration: none;
   font-size: 13px;
+}
+
+.login-form .login-button:hover {
+  background: #0295F6;
 }
 
 .login-form .login-facebook {
